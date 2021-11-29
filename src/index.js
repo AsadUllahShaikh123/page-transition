@@ -1,10 +1,13 @@
 import React from 'react'
 import ReactDom from 'react-dom'
+import Header from './components/Header/Header';
 
 let App=()=>
 {
   return(
-    <h1>Hello From App2</h1>
+    <>
+        <Header/>
+    </>
   )
 }
 ReactDom.render(<App/>,document.getElementById('root'));
