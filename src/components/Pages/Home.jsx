@@ -4,7 +4,7 @@ import Common from './Common'
 function Home() {
     return (
         <>
-            <Common Image={Image}/>
+            <Common Image={Image} title={'What a bird this is'} description={'Nice Choice'}/>
         </>
     )
 }
