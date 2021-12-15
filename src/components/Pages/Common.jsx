@@ -2,7 +2,7 @@ import React from 'react'
 
 function Common({ Image,title,description }) {
     return (
-        <>
+        
 
             <div className="common" style={{ background: `url(${Image}) #1111`, backgroundSize: '100%', backgroundRepeat: 'no-repeat', height: '100vh', marginTop: '-50px' }}>
                 <div className="title" style={{color:'white',paddingTop:'5rem'}}>
@@ -11,7 +11,7 @@ function Common({ Image,title,description }) {
                     <button style={{marginLeft:'5rem',fontSize:'2rem',padding:'0.5rem',background:'black',color:'white',border:'none',outline:'none',borderRadius:'4px'}}>Learn More</button>
                 </div>
             </div>
-        </>
+        
     )
 }
 

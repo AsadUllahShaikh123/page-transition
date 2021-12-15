@@ -13,7 +13,7 @@ function Header() {
                <ul className="links">
                    <li onClick={()=> navigate('/')}>Home</li>
                    <li onClick={()=> navigate('/about')}>About</li> 
-                   <li onClick={()=> navigate('/contact')}>Contact</li>
+                   <li onClick={()=> navigate('/contact')}>Services</li>
                </ul>
            </div>
        </div>
